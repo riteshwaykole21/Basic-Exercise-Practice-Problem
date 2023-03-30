@@ -16,6 +16,7 @@ namespace BasicProblem
             Console.WriteLine("4 : Print Result Of Specified opration");
             Console.WriteLine("5 : Swapping Two Number");
             Console.WriteLine("6 : Three Number Multiplication");
+            Console.WriteLine("7 : All Opration Performs");
             Console.WriteLine("Enter A Option");
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
@@ -44,7 +45,10 @@ namespace BasicProblem
                     Multiplication multiplication = new Multiplication();
                     multiplication.Three();
                     break;
-
+                case 7:
+                    Oprations oprations = new Oprations();
+                    oprations.Addition();
+                    break;
             }
             Console.ReadLine();
 
