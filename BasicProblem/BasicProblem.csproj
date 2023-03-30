@@ -46,6 +46,7 @@
     <Compile Include="Basics.cs" />
     <Compile Include="Dividing.cs" />
     <Compile Include="Multiplication.cs" />
+    <Compile Include="MultiplicationTable.cs" />
     <Compile Include="Oprations.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
