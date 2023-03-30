@@ -14,6 +14,7 @@ namespace BasicProblem
             Console.WriteLine("2 : Sum Of Two Number");
             Console.WriteLine("3 : Dividing Two Number");
             Console.WriteLine("4 : Print Result Of Specified opration");
+            Console.WriteLine("5 : Swapping Two Number");
             Console.WriteLine("Enter A Option");
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
@@ -33,6 +34,10 @@ namespace BasicProblem
                 case 4:
                     SpecificOpration specificOpration = new SpecificOpration();
                     specificOpration.Special();
+                    break;
+                case 5:
+                    SwapingtwoNum swapingtwoNum = new SwapingtwoNum();
+                    swapingtwoNum.Swap();
                     break;
             }
             Console.ReadLine();
