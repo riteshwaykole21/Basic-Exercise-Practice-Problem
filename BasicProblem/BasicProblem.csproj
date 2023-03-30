@@ -54,6 +54,7 @@
     <Compile Include="SpecificOpration.cs" />
     <Compile Include="Sum.cs" />
     <Compile Include="SwapingtwoNum.cs" />
+    <Compile Include="ThreeNumbers.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

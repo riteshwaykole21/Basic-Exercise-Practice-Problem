@@ -19,6 +19,7 @@ namespace BasicProblem
             Console.WriteLine("7 : All Opration Performs");
             Console.WriteLine("8 : Multiplication Table");
             Console.WriteLine("9 : Average Of Four Number");
+            Console.WriteLine("10 : Print Three Numbers");
             Console.WriteLine("Enter A Option");
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
@@ -58,6 +59,10 @@ namespace BasicProblem
                 case 9:
                     Average average = new Average();
                     average.AverageNum();
+                    break;
+                case 10:
+                    ThreeNumbers threeNumbers = new ThreeNumbers();
+                    threeNumbers.Three();
                     break;
             }
             Console.ReadLine();
