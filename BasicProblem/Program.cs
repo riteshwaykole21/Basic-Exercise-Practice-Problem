@@ -12,6 +12,7 @@ namespace BasicProblem
         {
             Console.WriteLine("1 : Print Hello");
             Console.WriteLine("2 : Sum Of Two Number");
+            Console.WriteLine("3 : Dividing Two Number");
             Console.WriteLine("Enter A Option");
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
@@ -24,6 +25,10 @@ namespace BasicProblem
                     Sum sum = new Sum();
                     sum.Add();
                     break;
+                case 3:
+                    Dividing dividing = new Dividing();
+                    dividing.divide();
+                   break;
             }
             Console.ReadLine();
 
